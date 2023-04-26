@@ -20,10 +20,10 @@
       &nbsp; <b> Sistemas Orientados a Servicios</b></NavbarBrand>
 
     <Nav navbar>
-      <!-- <NavItem>
+      <NavItem>
         <NavLink href="/" class="text-white">Inicio</NavLink>
-      </NavItem> -->
-      <Dropdown nav inNavbar>
+      </NavItem>
+      <!-- <Dropdown nav inNavbar>
         <DropdownToggle nav caret class="text-white">Interfaces</DropdownToggle>
         <DropdownMenu end>
           <DropdownItem
@@ -44,7 +44,7 @@
             ></DropdownItem
           >
         </DropdownMenu>
-      </Dropdown>
+      </Dropdown> -->
     </Nav>
   </Navbar>
 </header>
