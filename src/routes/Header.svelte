@@ -28,21 +28,21 @@
         <DropdownToggle nav caret class="text-white">Interfaces</DropdownToggle>
         <DropdownMenu end>
           <DropdownItem>
-            <!-- <NavLink href="/association-stats" class="text-black"
+            <NavLink href="/association-stats" class="text-black"
               >Asociaciones</NavLink
-            > -->
+            >
           </DropdownItem>
 
           <DropdownItem>
-            <!-- <NavLink href="/phone-line-stats" class="text-black"
+            <NavLink href="/phone-line-stats" class="text-black"
               >Líneas de teléfono</NavLink
-            > -->
+            >
           </DropdownItem>
 
           <DropdownItem>
-            <!-- <NavLink href="/projection-homes-stats" class="text-black"
+            <NavLink href="/projection-homes-stats" class="text-black"
               >Proyección de hogares</NavLink
-            > -->
+            >
           </DropdownItem>
         </DropdownMenu>
       </Dropdown>
