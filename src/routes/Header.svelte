@@ -10,13 +10,13 @@
     DropdownMenu,
     DropdownItem,
   } from "sveltestrap";
-  // import SvelteIcon from './SvelteIcon.svelte';
+  import SvelteIcon from './SvelteIcon.svelte';
 </script>
 
 <header>
   <Navbar dark expand="md" container="fluid" style="background-color: #222222">
     <NavbarBrand href="/">
-      <!-- <SvelteIcon />  -->
+      <SvelteIcon /> 
       &nbsp; <b> Sistemas Orientados a Servicios</b></NavbarBrand>
 
     <!-- <Nav navbar>
