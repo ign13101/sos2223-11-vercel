@@ -1,43 +1,38 @@
-## SOS2223-11
+# create-svelte
 
-[![Language](https://img.shields.io/badge/Powered%20by-Svelte-orange)](https://img.shields.io/badge/Powered%20by-Svelte-orange)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-<img alt="Coverage Status" src="/coverage/badge-lines.svg">
-![Known Vulnerabilities](https://snyk.io/test/github/gti-sos/SOS2223-11/badge.svg)
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
--------------------------
-- **Team**
-   - [Víctor Ruiz Jiménez](https://github.com/vicruijim)
-   - [Ignacio García Rodríguez](https://github.com/ign13101)
-   - [Christian Asuero Carrellán](https://github.com/chrasucar342)
-- **Project description**: Our project aims to analyze the correlations between associations, telephone lines and household structures.
+## Creating a project
 
-- **Repository**: [gti-sos/SOS2223-11](https://github.com/gti-sos/SOS2223-11)
+If you're seeing this, you've probably already done this step. Congrats!
 
-- **URL**: [https://sos2223-11.ew.r.appspot.com/](https://sos2223-11.ew.r.appspot.com/)
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-- **Interfaces**
-   - [https://sos2223-11.ew.r.appspot.com/phone-line-stats](https://sos2223-11.ew.r.appspot.com/phone-line-stats) (developed by Víctor Ruiz Jiménez)
-   - [https://sos2223-11.ew.r.appspot.com/association-stats](https://sos2223-11.ew.r.appspot.com/association-stats) (developed by Ignacio García Rodríguez)
-   - [https://sos2223-11.ew.r.appspot.com/projection-homes-stats](https://sos2223-11.ew.r.appspot.com/projection-homes-stats) (developed by Christian Asuero Carrellán)
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-- **APIs**
-   - v1:
-      - [https://sos2223-11.ew.r.appspot.com/api/v1/phone-line-stats](https://sos2223-11.ew.r.appspot.com/api/v1/phone-line-stats) (developed by Víctor Ruiz Jiménez) 
-      - [https://sos2223-11.ew.r.appspot.com/api/v1/association-stats](https://sos2223-11.ew.r.appspot.com/api/v1/association-stats) (developed by Ignacio García Rodríguez) 
-      - [https://sos2223-11.ew.r.appspot.com/api/v1/projection-homes-stats](https://sos2223-11.ew.r.appspot.com/api/v1/projection-homes-stats) (developed by Christian Asuero Carrellán) 
-   - v2:
-      - [https://sos2223-11.ew.r.appspot.com/api/v2/phone-line-stats](https://sos2223-11.ew.r.appspot.com/api/v2/phone-line-stats) (developed by Víctor Ruiz Jiménez) 
-      - [https://sos2223-11.ew.r.appspot.com/api/v2/association-stats](https://sos2223-11.ew.r.appspot.com/api/v2/association-stats) (developed by Ignacio García Rodríguez) 
-      - [https://sos2223-11.ew.r.appspot.com/api/v2/projection-homes-stats](https://sos2223-11.ew.r.appspot.com/api/v2/projection-homes-stats) (developed by Christian Asuero Carrellán)
+## Developing
 
-- **Documentación de Postman**
-   - v1:
-      - [https://sos2223-11.ew.r.appspot.com/api/v1/phone-line-stats/docs](https://sos2223-11.ew.r.appspot.com/api/v1/phone-line-stats/docs) (developed by Víctor Ruiz Jiménez) 
-      - [https://sos2223-11.ew.r.appspot.com/api/v1/association-stats/docs](https://sos2223-11.ew.r.appspot.com/api/v1/association-stats/docs) (developed by Ignacio García Rodríguez) 
-      - [https://sos2223-11.ew.r.appspot.com/api/v1/projection-homes-stats/docs](https://sos2223-11.ew.r.appspot.com/api/v1/projection-homes-stats/docs) (developed by Christian Asuero Carrellán) 
-   - v2:
-      - [https://sos2223-11.ew.r.appspot.com/api/v2/phone-line-stats/docs](https://sos2223-11.ew.r.appspot.com/api/v2/phone-line-stats/docs) (developed by Víctor Ruiz Jiménez) 
-      - [https://sos2223-11.ew.r.appspot.com/api/v2/association-stats/docs](https://sos2223-11.ew.r.appspot.com/api/v2/association-stats/docs) (developed by Ignacio García Rodríguez) 
-      - [https://sos2223-11.ew.r.appspot.com/api/v2/projection-homes-stats/docs](https://sos2223-11.ew.r.appspot.com/api/v2/projection-homes-stats/docs) (developed by Christian Asuero Carrellán)
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
