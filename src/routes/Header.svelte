@@ -24,7 +24,22 @@
       <NavItem>
         <NavLink href="/" class="text-white">Inicio</NavLink>
       </NavItem>
-      <Dropdown nav inNavbar>
+      <NavItem>
+        <NavLink href="/association-stats" class="text-black"
+              >Asociaciones</NavLink
+            >
+      </NavItem>
+      <NavItem>
+        <NavLink href="/phone-line-stats" class="text-black"
+              >Líneas de teléfono</NavLink
+            >
+      </NavItem>
+      <NavItem>
+        <NavLink href="/projection-homes-stats" class="text-black"
+              >Proyección de hogares</NavLink
+            >
+      </NavItem>
+      <!-- <Dropdown nav inNavbar>
         <DropdownToggle nav caret class="text-white">Interfaces</DropdownToggle>
         <DropdownMenu end>
           <DropdownItem>
@@ -40,12 +55,10 @@
           </DropdownItem>
 
           <DropdownItem>
-            <NavLink href="/projection-homes-stats" class="text-black"
-              >Proyección de hogares</NavLink
-            >
+            
           </DropdownItem>
         </DropdownMenu>
-      </Dropdown>
+      </Dropdown> -->
     </Nav>
   </Navbar>
 </header>
