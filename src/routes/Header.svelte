@@ -19,10 +19,10 @@
       <SvelteIcon /> 
       &nbsp; <b> Sistemas Orientados a Servicios</b></NavbarBrand>
 
-    <!-- <Nav navbar>
-      <NavItem>
+    <Nav navbar>
+      <!-- <NavItem>
         <NavLink href="/" class="text-white">Inicio</NavLink>
-      </NavItem>
+      </NavItem> -->
       <Dropdown nav inNavbar>
         <DropdownToggle nav caret class="text-white">Interfaces</DropdownToggle>
         <DropdownMenu end>
@@ -45,7 +45,7 @@
           >
         </DropdownMenu>
       </Dropdown>
-    </Nav> -->
+    </Nav>
   </Navbar>
 </header>
 
