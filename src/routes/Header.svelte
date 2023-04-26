@@ -25,17 +25,17 @@
         <NavLink href="/" class="text-white">Inicio</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink href="/association-stats" class="text-black"
+        <NavLink href="/association-stats" class="text-white"
               >Asociaciones</NavLink
             >
       </NavItem>
       <NavItem>
-        <NavLink href="/phone-line-stats" class="text-black"
+        <NavLink href="/phone-line-stats" class="text-white"
               >Líneas de teléfono</NavLink
             >
       </NavItem>
       <NavItem>
-        <NavLink href="/projection-homes-stats" class="text-black"
+        <NavLink href="/projection-homes-stats" class="text-white"
               >Proyección de hogares</NavLink
             >
       </NavItem>

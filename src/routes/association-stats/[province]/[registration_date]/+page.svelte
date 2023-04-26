@@ -2,7 +2,7 @@
     // @ts-nocheck
 
     import { onMount } from "svelte";
-    import { dev } from "$app/environment";
+    // import { dev } from "$app/environment";
     import { Button, Table, Container, Alert, Card, CardTitle, Form, FormGroup, Input, Label,  } from "sveltestrap";
     import { page } from "$app/stores";
 
@@ -13,10 +13,9 @@
     let province = $page.params.province;
     let registration_date = $page.params.registration_date;
 
-    let API =
-        "/api/v2/association-stats" + "/" + province + "/" + registration_date;
+    let API = "https://wheat-zesty-puppy.glitch.me/api/v2/association-stats" + "/" + province + "/" + registration_date;
 
-    if (dev) API = "http://localhost:12345" + API;
+    // if (dev) API = "http://localhost:12345" + API;
 
     let updated_name = "";
     let updated_goal = "";

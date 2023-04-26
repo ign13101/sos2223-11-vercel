@@ -2,7 +2,7 @@
     // @ts-nocheck
 
     import { onMount } from "svelte";
-    import { dev } from "$app/environment";
+    // import { dev } from "$app/environment";
     import {
         Button,
         Table,
@@ -25,9 +25,9 @@
         getAssociations();
     });
 
-    let API = "/api/v2/association-stats";
+    let API = "https://wheat-zesty-puppy.glitch.me/api/v2/association-stats";
 
-    if (dev) API = "http://localhost:12345" + API;
+    // if (dev) API = "http://localhost:12345" + API;
 
     let associations = [];
 
