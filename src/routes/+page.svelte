@@ -71,9 +71,42 @@
         <Row>
             <Col>
                 <p>
+                    <strong>Repositorio de Vercel</strong>:
+                    <a href="https://github.com/ign13101/SOS2223-11-vercel"
+                        >ign13101/SOS2223-11-vercel</a
+                    >
+                </p>
+            </Col>
+        </Row>
+
+        <Row>
+            <Col>
+                <p>
                     <strong>URL del proyecto</strong>:
                     <a href="{urlOptional}"
                         >{urlOptional}</a
+                    >
+                </p>
+            </Col>
+        </Row>
+
+        <Row>
+            <Col>
+                <p>
+                    <strong>URL del proyecto en Vercel</strong>:
+                    <a href="{urlVercel}"
+                        >{urlVercel}</a
+                    >
+                </p>
+            </Col>
+        </Row>
+
+        <Row>
+            <Col>
+                <p>
+                    <strong>URL del backend</strong>:
+                    <a href="{urlApi}"
+                        >{urlApi}</a
                     >
                 </p>
             </Col>
@@ -140,8 +173,8 @@
                             {#each teamMembers as member}
                             <li>
                                 <a
-                                    href="{urlOptional}api/v1/{member.dataname}/docs"
-                                    >{urlOptional}api/v1/{member.dataname}/docs</a
+                                    href="{urlApi}api/v1/{member.dataname}/docs"
+                                    >{urlApi}api/v1/{member.dataname}/docs</a
                                 >
                             </li>
                             {/each}
