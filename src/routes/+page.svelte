@@ -1,7 +1,11 @@
 <script>
     import { Container, Row, Col } from "sveltestrap";
 
-    let url = "https://wheat-zesty-puppy.glitch.me/";
+    let urlApi = "https://wheat-zesty-puppy.glitch.me/";
+
+    let urlOptional = "https://sos2223-11.ew.r.appspot.com/";
+
+    let urlVercel = "https://sos2223-11-vercel.vercel.app/";
 
     const teamMembers = [
         {
@@ -68,8 +72,8 @@
             <Col>
                 <p>
                     <strong>URL del proyecto</strong>:
-                    <a href={url}
-                        >{url}</a
+                    <a href="{urlOptional}"
+                        >{urlOptional}</a
                     >
                 </p>
             </Col>
@@ -82,8 +86,8 @@
                     {#each teamMembers as member}
                     <li>
                         <a
-                            href="{url}{member.dataname}"
-                            >{url}{member.dataname}</a
+                            href="{urlVercel}{member.dataname}"
+                            >{urlVercel}{member.dataname}</a
                         > (desarrollada por {member.name})
                     </li>
                     {/each}
@@ -101,8 +105,8 @@
                             {#each teamMembers as member}
                             <li>
                                 <a
-                                    href="{url}api/v1/{member.dataname}"
-                                    >{url}api/v1/{member.dataname}</a
+                                    href="{urlApi}api/v1/{member.dataname}"
+                                    >{urlApi}api/v1/{member.dataname}</a
                                 > (desarrollada por {member.name})
                             </li>
                             {/each}
@@ -115,8 +119,8 @@
                             {#each teamMembers as member}
                             <li>
                                 <a
-                                    href="{url}api/v2/{member.dataname}"
-                                    >{url}api/v2/{member.dataname}</a
+                                    href="{urlApi}api/v2/{member.dataname}"
+                                    >{urlApi}api/v2/{member.dataname}</a
                                 > (desarrollada por {member.name})
                             </li>
                             {/each}
@@ -136,8 +140,8 @@
                             {#each teamMembers as member}
                             <li>
                                 <a
-                                    href="{url}api/v1/{member.dataname}/docs"
-                                    >{url}api/v1/{member.dataname}/docs</a
+                                    href="{urlOptional}api/v1/{member.dataname}/docs"
+                                    >{urlOptional}api/v1/{member.dataname}/docs</a
                                 >
                             </li>
                             {/each}
@@ -150,8 +154,8 @@
                             {#each teamMembers as member}
                             <li>
                                 <a
-                                    href="{url}api/v2/{member.dataname}/docs"
-                                    >{url}api/v2/{member.dataname}/docs</a
+                                    href="{urlOptional}api/v2/{member.dataname}/docs"
+                                    >{urlOptional}api/v2/{member.dataname}/docs</a
                                 >
                             </li>
                             {/each}
